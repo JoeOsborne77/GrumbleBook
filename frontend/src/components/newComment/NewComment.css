@@ -1,0 +1,23 @@
+#submit-comment-form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.new-comment-form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.new-comment {
+  font-size: 11px;
+  display: flex;
+  width: 100%;
+}
+
+.submit-button {
+  border-radius: 8px;
+  font-size: 11px;
+}
+

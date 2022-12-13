@@ -1,0 +1,101 @@
+h1 {
+  font-family: 'Kemco Pixel', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-shadow: 4px 4px black;
+  line-height: 40px;
+}
+
+body {
+  line-height: 25px;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#submit {
+  box-shadow: 3px 3px black;
+}
+
+form {
+  display: inline-block;
+  margin-top: 0em;
+}
+
+.form-log-in {
+  max-width: 300px;
+  max-height: 300px;
+  padding: 19px 19px 19px 19px;
+  margin: 0 auto;
+  background-color: darkred;
+  border-radius: 8px;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: 'TheGoodMonolith', sans-serif;
+}
+
+input {
+  font-family: 'TheGoodMonolith', sans-serif;
+}
+
+.box {
+  width: 250px;
+  height: auto;
+  margin: 20px auto;
+  background: white;
+  padding: 10px;
+  font-weight: 900;
+  color: black;
+  font-family: 'TheGoodMonolith', sans-serif;
+  position: relative;
+  box-shadow: 10px 10px black;
+}
+
+.sb2:before {
+  content: '';
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid white;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid white;
+  right: -20px;
+  top: 50px;
+  box-shadow: 0px 10px black;
+}
+
+#KyleImage {
+  height: 400px;
+  width: 90%;
+}
+
+#KyleImage:hover {
+  -webkit-animation: mover 0.25s infinite alternate;
+  animation: mover 0.25s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}

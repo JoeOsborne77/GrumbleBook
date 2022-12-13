@@ -1,0 +1,26 @@
+body {
+  background-image: url(./images/brick\ wallpaper.png);
+  background-repeat: repeat;
+  margin: 0px;
+  font-family: 'TheGoodMonolith', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(250, 225, 225);
+}
+
+#title-on-index {
+  font-family: 'Kemco Pixel', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-shadow: 4px 4px black;
+  line-height: 40px;
+}
+
+#posts-heading {
+  font-family: 'Kemco Pixel', sans-serif;
+  font-size: 40px;
+  color: white;
+  text-shadow: 4px 4px black;
+  line-height: 40px;
+}

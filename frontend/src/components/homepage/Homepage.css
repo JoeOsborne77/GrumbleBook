@@ -1,0 +1,42 @@
+#KyleImageHome {
+  height: 400px;
+  width: 90%;
+  transform: scaleX(-1);
+}
+
+#KyleImageHome:hover {
+  -webkit-animation: mover 0.25s infinite alternate;
+  animation: mover 0.25s infinite alternate;
+}
+
+.box2 {
+  width: 250px;
+  height: auto;
+  margin: 20px auto;
+  background: white;
+  padding: 10px;
+  font-weight: 900;
+  color: black;
+  font-family: 'TheGoodMonolith', sans-serif;
+  position: relative;
+  box-shadow: -10px 10px black;
+}
+
+.sb4:before {
+  content: '';
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid white;
+  left: -20px;
+  top: 50px;
+  box-shadow: 0px 10px black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

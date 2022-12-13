@@ -1,0 +1,22 @@
+#agree-disagree-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.agree-button {
+  border-radius: 5px;
+  box-shadow: 3px 3px black;
+  padding: 5px;
+  margin-right: 5px;
+  font-family: 'TheGoodMonolith', sans-serif;
+}
+
+.disagree-button {
+  border-radius: 5px;
+  box-shadow: 3px 3px black;
+  padding: 5px;
+  margin-left: 5px;
+  font-family: 'TheGoodMonolith', sans-serif;
+}
